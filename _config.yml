@@ -217,10 +217,10 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/streamelody
-  Email: shuangyeying@gmail.com
-  Facebook: https://facebook.com/streamelody
-  Weibo: http://www.weibo.com/bailuer
+  GitHub: https://github.com/CelesteXiong
+  Email: sh.xiong0925@gmail.com
+  # Facebook: https://facebook.com/streamelody
+  # Weibo: http://www.weibo.com/bailuer
 
 # Social Links Icons
 # Icon Mapping:
