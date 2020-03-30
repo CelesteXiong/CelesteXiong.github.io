@@ -1,0 +1,49 @@
+I"
+<h1 id="mac-使用小技巧">Mac 使用小技巧</h1>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 配置 PD 虚拟机下，走宿主机 SS 代理</span>
+宿主机 SS 修改本地 Socks5 监听地址：0.0.0.0
+虚拟机网络设置为：桥接
+虚拟机的代理为 Socks5 代理：宿主机ip:1086
+
+<span class="c"># 配置终端走代理，返回数据表示成功</span>
+<span class="nb">export</span> <span class="o">{</span>http,https<span class="o">}</span><span class="nv">_proxy</span><span class="o">=</span>socks5://0.0.0.0:1086
+curl https://www.google.com 
+
+<span class="c"># 显示隐藏文件和隐藏文件</span>
+⌘ + ⇧ + <span class="nb">.</span>
+chflags hidden 文件路径
+
+<span class="c"># Unicode 十六进制输入，⌥ + 对应编码即可</span>
+⌘/Command: 2318     ⌥/Alt/Option: 2325  ⇧/Shift: 21E7   ⌃/Control: 2303  
+⏎/Enter: 23ce       ⌫/Delete: 232B      ⎋/ESC: 238B    
+⇪/Capslock: 21ea    ⇥/Tab: 8677         /Apple Logo: ⌥ + ⇧ + K 
+
+<span class="c"># 截图去掉阴影效果</span>
+defaults write com.apple.screencapture disable-shadow <span class="nt">-bool</span> TRUE
+Killall SystemUIServer
+
+<span class="c"># 关闭 SIP </span>
+⌘ + R 进入恢复模式，终端使用命令 csrutil disable
+
+<span class="c"># 允许任何来源</span>
+<span class="nb">sudo </span>spctl <span class="nt">--master-disable</span>
+
+<span class="c"># Surge for Mac 相关配置</span>
+<span class="c"># 安装 v2ray-core 和 shadowsocks-libev</span>
+brew tap v2ray/v2ray
+brew <span class="nb">install </span>v2ray-core
+brew <span class="nb">install </span>shadowsocks-libev
+
+<span class="c"># 安装完成后 v2ray 的位置</span>
+/usr/local/bin/v2ray
+
+<span class="c"># 安装完成后 ss-local 的位置</span>
+/usr/local/bin/ss-local
+
+<span class="c"># surge.conf 配置文件</span>
+External-SSR <span class="o">=</span> external, <span class="nb">exec</span> <span class="o">=</span> <span class="s2">"/usr/local/bin/ss-local"</span>, args <span class="o">=</span> <span class="s2">"-c"</span>, args <span class="o">=</span> <span class="s2">"/Users/shuangyeying/BWG_CN2_SSR.json"</span>, local-port <span class="o">=</span> 19522
+
+External_V2Ray <span class="o">=</span> external, <span class="nb">exec</span> <span class="o">=</span> <span class="s2">"/usr/local/bin/v2ray"</span>, local-port <span class="o">=</span> 19829, args <span class="o">=</span> <span class="s2">"--config=/Users/shuangyeying/BWG_CN2_V2Ray.json"</span>
+</code></pre></div></div>
+:ET
