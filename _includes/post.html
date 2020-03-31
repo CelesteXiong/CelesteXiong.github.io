@@ -13,4 +13,9 @@
       {% include _partials/share/duoshuo_share.html %}
     {% endif %}
   </div>
+  <div class = "comments">
+    {% if site.gitalk %}
+      {% include _third-party/comments/gitalk.html %}
+    {% endif %}
+  </div>
 </div>

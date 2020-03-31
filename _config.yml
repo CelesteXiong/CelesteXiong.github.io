@@ -368,9 +368,9 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
-  cdn: http://cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  enable: true
+  per_page: true
+  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
 han: false
@@ -415,12 +415,12 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: false
-  clientID: 124e8b6c86c6d92ff777
-  clientSecret: 93ff426a275cf3e5cac0f244568393d224a5a556
-  repo: streamelody.github.io
-  owner: streamelody
-  admin: streamelody
+  enable: true
+  clientID: 5499fd30a9440d3fc473
+  clientSecret: a2fda0196f0411a154382a4ccc69583e4408ac08
+  repo: CelesteXiong.github.io
+  owner: CelesteXiong
+  admin: CelesteXiong
 
 # Baidu Share
 # Available value:
@@ -435,6 +435,9 @@ gitalk:
 #add_this_id:
 
 # Share
+add_this_id: ra-5e82e5c9a755e254
+
+# Share
 #duoshuo_share: true
 
 # Google Webmaster tools verification setting
@@ -442,7 +445,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: G-MW8EGBFVYN
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/

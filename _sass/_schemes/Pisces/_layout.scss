@@ -1,8 +1,8 @@
 .header {
   position: relative;
   margin: 0 auto;
-  // width: $main-desktop;
-  width: 90%;
+  width: $main-desktop;
+  // width: 80%;
 
   @include tablet() {
     width: auto;
@@ -49,7 +49,7 @@
 
 .container .main-inner {
   width: $main-desktop;
-  // width: 90%;
+  // width: 80%;
   @include tablet() {
     width: auto;
   }
@@ -61,11 +61,11 @@
 .content-wrap {
   float: right;
   box-sizing: border-box;
-  //padding: $content-desktop-padding;
+  // padding: $content-desktop-padding;
   width: $content-desktop;
-  // width: calc(100%-260px);
+  // width: calc(100%-1000px);
   background: transparent;
-  min-height: 700px;
+  min-height: 600px;
   box-shadow: $box-shadow-inner;
   border-radius: $border-radius-inner;
 
