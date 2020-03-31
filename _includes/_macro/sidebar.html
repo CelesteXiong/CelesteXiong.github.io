@@ -95,15 +95,17 @@
         <div class="links-of-author motion-element">
           {% if site.social %}
             {% for name_link in site.social %}
-              {% assign name = name_link[0] %}
-              {% assign link = name_link[1] %}
+              <!-- {% assign name = name_link | first %} -->
+              {% assign name = name_link[0] %} 
+              {% assign link = name_link[1] %} 
               <span class="links-of-author-item">
                 <a href="{{ link }}" target="_blank" title="{{ name }}">
+                  <!-- <a href="{{ name_link[name].href }}{{ name_link[name].id }}" title="{{ name_link[name].title }}"> -->
                   {% if site.social_icons.enable %}
                     <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i>
                   {% endif %}
                   {{ name }}
-                </a>
+                  </a>
               </span>
             {% endfor %}
           {% endif %}

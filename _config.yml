@@ -234,10 +234,31 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/CelesteXiong
-  Email: sh.xiong0925@gmail.com
+  # GitHub: https://github.com/CelesteXiong
+  # Email: sh.xiong0925@gmail.com
   # Facebook: https://facebook.com/streamelody
   # Weibo: http://www.weibo.com/bailuer
+  email:
+    id: 'sh.xiong0925@gmail.com'
+    href: 'mailto:'
+    title: 'Email'
+    fa-icon: 'envelope-o'
+  github:
+    id: 'CelesteXiong'
+    href: 'https://github.com/'
+    title: 'GitHub'
+    fa-icon: 'github'
+  # facebook:
+  #   id: 'your-facebook-username'
+  #   href: 'https://www.facebook.com/'
+  #   title: 'Facebook'
+  #   fa-icon: 'fa-facebook-square'
+
+  # twitter:
+  #   id: 'your-twitter-name'
+  #   href: 'https://www.twitter.com/'
+  #   title: 'Twitter'
+  #   fa-icon: 'fa-twitter-square'
 
 # Social Links Icons
 # Icon Mapping:
