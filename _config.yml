@@ -5,9 +5,9 @@
 
 # Site
 title: Celeste
-subtitle: As a bird to your mountain
+subtitle: Fly as a bird to your mountain
 description: 明月松间照 生命从来不喧哗 片刻也可组成永恒哪
-author: 沁钰
+author: sh.xiong
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -196,8 +196,8 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family: Parisienne
-    size:
+    family: Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
