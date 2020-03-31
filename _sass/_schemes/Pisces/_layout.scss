@@ -48,8 +48,8 @@
 }
 
 .container .main-inner {
-  // width: $main-desktop;
-  width: 90%;
+  width: $main-desktop;
+  // width: 90%;
   @include tablet() {
     width: auto;
   }
