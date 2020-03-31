@@ -62,8 +62,8 @@
   float: right;
   box-sizing: border-box;
   //padding: $content-desktop-padding;
-  // width: $content-desktop;
-  width: calc(100%-260px);
+  width: $content-desktop;
+  // width: calc(100%-260px);
   background: transparent;
   min-height: 700px;
   box-shadow: $box-shadow-inner;
