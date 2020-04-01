@@ -10,7 +10,7 @@ tags: LevelDB
 
 1. 在skiplist.h中写入函数声明:
 
-   ![image-20200326160557408](/../../media/2020-04-02-leveldb-skiplist/20200326160553864.png)
+![image-20200326160557408](/../../media/2020-04-02-leveldb-skiplist/20200326160553864.png)
 
 # 学习
 
