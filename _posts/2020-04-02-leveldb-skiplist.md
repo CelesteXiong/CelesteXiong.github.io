@@ -22,7 +22,7 @@ tags: LevelDB
    - 内存索引Memtable的核心数据结构是SkipList, 作用就是解决KV的快速插入和查询。
 
 3. SkipList（跳表）数据结构是用于Memtable，Immutable Memtable表中，对于此二表的作用点此查看[Memtable作用](https://blog.csdn.net/H514434485/article/details/103546949)。
-
+<!--more-->
 ## 一. 介绍
 SkipList使用空间换时间的设计思路，通过构建多级索引来提高查询的效率，实现了基于链表的“二分查找”。
 复杂度如下：
