@@ -6,7 +6,16 @@ categories: 博客
 tags: 媒体
 ---
 
+# 命令行
+
+1. bundle exe jekyll build
+2. git add .
+3. git commit -m "blah"
+4. git push
+
+
 # 图片
+
 1. 在media中建立文件夹存储文件d: media/title/
 2. md中图片地址: "/../../media/title/img.png"
 3. 将图片放入d即可
