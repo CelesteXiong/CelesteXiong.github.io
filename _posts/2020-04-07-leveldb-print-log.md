@@ -4,6 +4,7 @@ title: LevelDB print log
 date: 2020-04-07 19:27
 categories: 数据库
 tags: [LevelDB, log]
+author: sh.xiong
 ---
 
 ```c
@@ -24,9 +25,9 @@ void getVariant32ptr(ifstream *fp, uint32_t *key_length){
     uint32_t result = 0;
     /* 
         解码的两种情况:
-        1. 与128相与为0表示待解码的result<=127，所以长度就是一个字节
+        a. 与128相与为0表示待解码的result<=127，所以长度就是一个字节
         直接赋值给*key_length;
-        2. 对于超过一个字节的长度编码，解码的过程就是按小端顺序，
+        b. 对于超过一个字节的长度编码，解码的过程就是按小端顺序，
         每7位取出，然后移位来组装最后的实际长度，组装接受的表示就是MSB位为0.
     */
     for (uint32_t shift = 0; shift <= 28; shift += 7)
@@ -51,11 +52,12 @@ int main(){
     string filename = "testdb_2/000124.log";
     ifstream fp;
     fp.open(filename, ifstream::in);
-    // if (fp.peek() == EOF)
-    // {
-    //     cout << "File not open!"<<endl;
-    // }
-    // int left = 0;
+    // ifstream.peek(): Returns the next character in the input sequence,
+    // without extracting it
+    if (fp.peek() == EOF)
+    {
+        cout << "File not open!"<<endl;
+    }
     while (fp.peek() != EOF)
     {
        /* 
