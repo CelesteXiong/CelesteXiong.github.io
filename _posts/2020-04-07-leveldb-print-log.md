@@ -1,11 +1,15 @@
 ---
 layout: post
-title: LevelDB print log
+title: LevelDB Print Log
 date: 2020-04-07 19:27
 categories: 数据库
-tags: [LevelDB, log]
+tags: [LevelDB]
 author: sh.xiong
 ---
+
+变长编码
+
+<!--more-->
 
 ```c
 #include "leveldb/db.h"
@@ -19,8 +23,10 @@ using namespace std;
 using namespace leveldb;
 using namespace log;
 
+// 定义valuetype
 enum ValueType {typedelete = 0x0, typevalue = 0x1};
 
+// 定义变长解码函数
 void getVariant32ptr(ifstream *fp, uint32_t *key_length){
     uint32_t result = 0;
     /* 
