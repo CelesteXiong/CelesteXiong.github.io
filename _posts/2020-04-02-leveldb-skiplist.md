@@ -80,13 +80,14 @@ struct SkipList<Key, Comparator>::Node {
 
  private:
   /*
-    当前节点的每个等级的下一个结点
+    next_[1]: 当前节点的每个等级的下一个结点
 	  第2级 N1 N2
 	  第1级 N1 N2
 	  如果N1是本节点，则next_[x] 保存的是N2
 	  next_[0]就是原始链表。
 
-    atomic types are those for which reading and writing are guaranteed to happen in a single instruction.
+    atomic types are those for which reading and 
+    writing are guaranteed to happen in a single instruction.
   */
   // Array of length equal to the node height.  next_[0] is lowest level link.
   std::atomic<Node*> next_[1]; /// 大小是一个Node
@@ -215,7 +216,7 @@ class SkipList {
 
   // Modified only by Insert().  Read racily by readers, but stale
   // values are ok.
-  std::atomic<int> max_height_;  // Height of the entire list//记录当前skiplist使用的最高高度
+  std::atomic<int> max_height_;  // Height of the entire list
 
   /// 用于产生随机数
   // Read/written only by Insert().
@@ -298,7 +299,8 @@ inline void SkipList<Key, Comparator>::Iterator::SeekToLast() {
 
 /// 生成要随机插入的层高，比如4，那就是[0...3]都要插入
 template <typename Key, class Comparator>
-int SkipList<Key, Comparator>::RandomHeight() {//利用随机数实现每次有4分之一的概率增长高度。
+int SkipList<Key, Comparator>::RandomHeight() {
+  //利用随机数实现每次有4分之一的概率增长高度。
   // Increase height with probability 1 in kBranching
   static const unsigned int kBranching = 4;
   int height = 1;
@@ -317,8 +319,8 @@ bool SkipList<Key, Comparator>::KeyIsAfterNode(const Key& key, Node* n) const {/
   return (n != nullptr) && (compare_(n->key, key) < 0);
 }
 
-/* 
-  找到≥key的Node, 从最高层开始: 
+/*
+  找到≥key的Node, 从最高层开始:
   1. 如果未找到对应的Node, 则返回的next是null
   2. 如果prev非null, 则讲每一层最近小于key的Noden地址保存入prev[level]
 */
@@ -346,10 +348,10 @@ SkipList<Key, Comparator>::FindGreaterOrEqual(const Key& key,
   }
 }
 
-/* 
+/*
   查找最近小于key的Node, 从最高层查起
   如果未找到, 就返回head_
-*/ 
+*/
 template <typename Key, class Comparator>
 typename SkipList<Key, Comparator>::Node*
 SkipList<Key, Comparator>::FindLessThan(const Key& key) const {
