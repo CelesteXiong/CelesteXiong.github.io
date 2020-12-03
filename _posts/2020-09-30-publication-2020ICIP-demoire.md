@@ -2,7 +2,7 @@
 layout: post
 title: Introduction to our paper published on 2020 ICIP
 date: 2020-09-30 11:09
-category: Research
+category: Research, Deep Learning
 author: Shunagyu Xiong
 tags: [Publication]
 summary: High Resolution Demoire Network
