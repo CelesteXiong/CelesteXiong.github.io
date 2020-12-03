@@ -21,21 +21,17 @@ summary: Modeling cancer drug response through informative gene expression and c
 ### Background
 
 1. Gene Expression has been shown to be able to infer how cancer cells respond to drugs
-   
    > "Not only specific features can be discovered as biomarkers for resistance or sensitivity to a particular drug, but combinations of those same genomic and molecular features can be used to predict the effect of a drug on a patient)"  
    >
    > -- Azuaje, F. Computational models for predicting drug responses in cancer research. *Brief. Bioinform.* **18**, 820–829 (2017).
 
 2. A large dataset
-
    *EDIS CIT Datamart* contains gene expressions and clinical data for research and drug development.
 
 3. Machine learning approaches
-
    May be suitable to handle large data with high dimension.
 
 4. Motivation:
-
    We can utilize *CIT Datamart* to predict patient’s possible response to drugs.
 
 <!--more-->
