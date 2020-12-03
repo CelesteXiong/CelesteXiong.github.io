@@ -93,7 +93,7 @@ summary:
        ​	“count": int [记录角色所拥有的宝物数量]
        
        }
-
+<!--more-->
 #### 1.2  应用访问数据库(CRUD操作）
 
 ```python

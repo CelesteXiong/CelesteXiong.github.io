@@ -32,7 +32,7 @@ summary:
 
    - 对匹配的特征点, 利用**双目视差**, 重建得到三维坐标
 
-     ![双目视差原理](/../../media/2019-10-03-undergraduate-innovation-project/image-20201203235603543.png)
+     ![image-20201203235603543](/../../media/2019-10-03-undergraduate-innovation-project/image-20201203235603543.png)
 
 4. **难点**: 特征点匹配不准确
 
