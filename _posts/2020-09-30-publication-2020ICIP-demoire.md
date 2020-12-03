@@ -22,7 +22,7 @@ In this paper, our goal is to remove moire artifact, which always appears when p
 We define the problem as follows: given an image with moire pattern, model process the contaminated image and output a clean image, the output image should be as close to the corresponding clean image as possible.
 
 ![question_definition](/../../media/2020-09-30-publication-2020ICIP-demoire/image-20201203120632597.png)
-
+<!--more-->
 There are several **previous methods** for demoiring; however, they mostly used a multi-scale framework to identify the complex frequencies of moire, while the relationship between different scales was ignored. **Our work** focuses on relationships between feature maps with different resolutions. 
 
 We handle the moire pattern's multi-frequencies with High-Resolution Demoire Network(HRDN). The figure shows our model architecture. HRDN introduces several parallel branches with different resolutions. Each branch can be vertically split into subnetworks within stages, found in the middle blue part.
