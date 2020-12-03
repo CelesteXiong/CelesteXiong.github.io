@@ -8,6 +8,7 @@ tags: [Internship]
 summary: Modeling cancer drug response through informative gene expression and clinical data
 ---
 
+Modeling cancer drug response through informative gene expression and clinical data
  **Note**: The project was compeleted as a statitical programming analyst intern in Roche(China)
 
 *Manager: Zhanjian Dong*
