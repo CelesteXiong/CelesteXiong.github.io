@@ -2,9 +2,9 @@
 layout: post
 title: Fitness gesture recognition and correction based on Computer Vision
 date: 2019-10-03 23:45
-category: Research, Image Processing, Machine Learning
+category: Research
 author: 
-tags: []
+tags: [Image Processing, Machine Learning]]
 summary: 
 ---
 

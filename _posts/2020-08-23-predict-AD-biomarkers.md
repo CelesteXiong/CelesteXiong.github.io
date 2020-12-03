@@ -2,9 +2,9 @@
 layout: post
 title: Introduction to our paper 
 date: 2020-08-23 12:22
-category: Research, Machine Learning
+category: Research
 author: 
-tags: [Publication]
+tags: [Publication, Machine Learning]
 summary: Modular Machine Learning Algorithm for Classifying Alzheimer’s Disease Based On Retinal Vasculature
 ---
 

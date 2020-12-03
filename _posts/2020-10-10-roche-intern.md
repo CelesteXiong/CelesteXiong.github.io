@@ -2,9 +2,9 @@
 layout: post
 title: Cancer drug response prediction 
 date: 2020-10-10 22:39
-category: Industry, Machine Learning, Bioinformatics
+category: Industry
 author: 
-tags: [Internship]
+tags: [Internship, Machine Learning, Bioinformatics]
 summary: Modeling cancer drug response through informative gene expression and clinical data
 ---
 

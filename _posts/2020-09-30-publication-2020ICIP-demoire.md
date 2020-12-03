@@ -2,17 +2,16 @@
 layout: post
 title: Introduction to our paper published on 2020 ICIP
 date: 2020-09-30 11:09
-category: Research, Deep Learning
+category: Research
 author: Shunagyu Xiong
-tags: [Publication]
+tags: [Publication,  Deep Learning]
 summary: High Resolution Demoire Network
 ---
 
 
 # Useful information
-
-1. paper link: https://ieeexplore.ieee.org/document/9191255
-2. github link: https://github.com/Rheaaaaayy/HRDN-DEMOIRE
+1. paper link: (https://ieeexplore.ieee.org/document/9191255)[https://ieeexplore.ieee.org/document/9191255]
+2. github link: (https://github.com/Rheaaaaayy/HRDN-DEMOIRE)[https://github.com/Rheaaaaayy/HRDN-DEMOIRE]
 
 # Introduction
 

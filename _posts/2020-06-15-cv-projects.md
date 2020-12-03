@@ -2,9 +2,9 @@
 layout: post
 title: Computer Vision Porject - Classification of novel coronavirus pneumonia (NCP)
 date: 2020-06-15 00:22
-category: Assignment, Machine Learning
+category: Machine Learning
 author: 
-tags: []
+tags: [Assignment, Computer Vision]
 summary: 
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 
+title: Database project - An online book store
 date: 2020-02-15 00:40
-category: 
+category: Database
 author: 
-tags: []
+tags: [MongoDB, MySQL]
 summary: 
 ---
 

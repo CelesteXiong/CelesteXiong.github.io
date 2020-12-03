@@ -2,8 +2,8 @@
 layout: post
 title: LevelDB SkipList
 date: 2020-04-02 01:49 +0800
-categories: 数据库
-tags: [LevelDB, source code]
+categories: Database
+tags: [LevelDB, Source Code]
 ---
 
 # 任务

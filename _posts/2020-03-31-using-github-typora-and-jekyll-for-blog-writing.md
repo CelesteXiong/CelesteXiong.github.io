@@ -2,8 +2,8 @@
 layout: post
 title: Build gitpage with github, jekyll and typora
 date: 2020-03-31 20:09 +0800
-categories: 博客
-tags: 媒体
+categories: Blog
+tags: Media
 ---
 
 # 命令行

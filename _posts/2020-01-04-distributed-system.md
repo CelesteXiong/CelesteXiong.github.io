@@ -2,9 +2,9 @@
 layout: post
 title: Distributed System projects
 date: 2020-01-04 00:31
-category: Distributed System, Java
+category: Distributed System
 author: 
-tags: []
+tags: [Java]
 summary: 
 ---
 

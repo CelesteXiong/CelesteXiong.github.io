@@ -2,7 +2,7 @@
 layout: post
 title: LevelDB Log
 date: 2020-04-07 19:27
-categories: 数据库
+categories: Database
 tags: [LevelDB, source code]
 ---
 

@@ -2,9 +2,9 @@
 layout: post
 title: Database hands-on project - A Hunt Game
 date: 2019-12-31 00:11
-category: Database, MySQL, MongoDB, PostgreSQL
+category: Database
 author: 
-tags: [Database]
+tags: [MySQL, MongoDB, PostgreSQL]
 summary: 
 ---
 
