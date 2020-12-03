@@ -21,4 +21,4 @@ summary: Modular Machine Learning Algorithm for Classifying Alzheimer’s Diseas
 3. 结果: 
   Accuracy(mean/std): 0.842(0.012)
 
-4. 展示: 
+4. 展示(待定)
