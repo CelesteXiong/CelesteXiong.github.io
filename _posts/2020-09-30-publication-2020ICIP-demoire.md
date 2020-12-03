@@ -11,8 +11,8 @@ summary: High Resolution Demoire Network
 
 # Useful information
 
-1. paper link: (https://ieeexplore.ieee.org/document/9191255)[https://ieeexplore.ieee.org/document/9191255]
-2. github link: (https://github.com/Rheaaaaayy/HRDN-DEMOIRE)[https://github.com/Rheaaaaayy/HRDN-DEMOIRE]
+1. paper link: https://ieeexplore.ieee.org/document/9191255
+2. github link: https://github.com/Rheaaaaayy/HRDN-DEMOIRE
 
 # Introduction
 
