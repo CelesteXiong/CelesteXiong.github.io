@@ -38,6 +38,7 @@ summary: Modeling cancer drug response through informative gene expression and c
 
    We can utilize *CIT Datamart* to predict patient’s possible response to drugs.
 
+<!--more-->
 ### Example
 
 - Given a patient with Lung cancer, we have the record of his/her demographic characteristics, such as *age, height, weight* and so on.
@@ -69,7 +70,7 @@ summary: Modeling cancer drug response through informative gene expression and c
 
 5. Methods
 
-   ![methods](2020-10-10-roche-intern/image-20201203230232448.png)
+   ![methods](/../../media/2020-10-10-roche-intern/image-20201203230232448.png)
 
 ## Methodology
 
@@ -98,11 +99,11 @@ summary: Modeling cancer drug response through informative gene expression and c
 
 4. Final input for model: 
 
-   ![image-20201203230434416](2020-10-10-roche-intern/image-20201203230434416.png)
+   ![image-20201203230434416](/../../media/2020-10-10-roche-intern/image-20201203230434416.png)
 
    Dataset split: 
 
-   ![image-20201203230456270](2020-10-10-roche-intern/image-20201203230456270.png)
+   ![image-20201203230456270](/../../media/2020-10-10-roche-intern/image-20201203230456270.png)
 
 ### Classification
 
@@ -114,13 +115,13 @@ summary: Modeling cancer drug response through informative gene expression and c
 
      ■$X$ is input vector
 
-     <img src="2020-10-10-roche-intern/image-20201203231731062.png" alt="image-20201203231731062" style="zoom:40%;" />
+     <img src="/../../media/2020-10-10-roche-intern/image-20201203231731062.png" alt="image-20201203231731062" style="zoom:40%;" />
 
 2. Tree-based model
 
    - Decision tree
 
-     ![image-20201203232329461](2020-10-10-roche-intern/image-20201203232329461.png)
+     ![image-20201203232329461](/../../media/2020-10-10-roche-intern/image-20201203232329461.png)
 
      - Algorithm: 
        - Greedy: best split(gini, entropy, error)
@@ -132,7 +133,7 @@ summary: Modeling cancer drug response through informative gene expression and c
 
    - Ensemble
 
-     - ![image-20201203232414458](2020-10-10-roche-intern/image-20201203232414458.png)
+     - ![image-20201203232414458](/../../media/2020-10-10-roche-intern/image-20201203232414458.png)
 
      - bagging(random forest): Uniform sampling
      - boosting: Weighted sampling
