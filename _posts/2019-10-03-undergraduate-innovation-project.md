@@ -14,6 +14,8 @@ summary:
 
 2. 要求: 进行三维重建, 与标准姿态图片重建后的结果对比并评分
 
+<!--more-->
+
 3. 思路: 
 
    - 对左右目图片进行标定
@@ -30,7 +32,7 @@ summary:
 
    - 对匹配的特征点, 利用**双目视差**, 重建得到三维坐标
 
-     ![双目视差原理](2019-10-03-undergraduate-innovation-project/image-20201203235603543.png)
+     ![双目视差原理](/../../media/2019-10-03-undergraduate-innovation-project/image-20201203235603543.png)
 
 4. **难点**: 特征点匹配不准确
 
