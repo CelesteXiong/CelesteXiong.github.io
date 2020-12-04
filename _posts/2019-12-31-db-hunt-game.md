@@ -12,7 +12,6 @@ summary:
 2. Code and reports for Hunt Game: https://github.com/CelesteXiong/DataBase
 
 # Hunt Game
-
 ## Background
 
 考虑以下游戏场景：
