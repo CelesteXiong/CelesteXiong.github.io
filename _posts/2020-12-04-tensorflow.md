@@ -18,7 +18,7 @@ summary:
 
 2. search the Tensorflow 2.0 official website for your function
 
-   ![image-20201204214752415](2020-12-04-tensorflow/image-20201204214752415.png)
+   ![image-20201204214752415](/../../media/2020-12-04-tensorflow/image-20201204214752415.png)
 
 ## Use tensorflow with GPU
 
