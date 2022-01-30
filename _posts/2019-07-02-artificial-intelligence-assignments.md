@@ -7,6 +7,5 @@ author:
 tags: []
 summary: 
 ---
-**try something **
 ## Useful links
 1. GitHub link: https://github.com/CelesteXiong/AI_Assignment
